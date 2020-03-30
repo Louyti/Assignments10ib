@@ -6,6 +6,7 @@
             "dueTime": "23:59",
             "ACT": "2.5h",
             "donations": [["LORENSS-CENTRS", "RESOURCES/RigasCentrs_LorenssMartinsons_10ib.jpg"]],
+            "files": [["L2", "RESOURCES?IMG-20200323-WA0002.jpg"], ["L1", "RESOURCES/IMG-20200323-WA0003.jpg"]],
             "data": "Šonedēļ darbosieties ar pētīšanu. Pievienotas 3 lapas, kas jāizpēta un jāizdara. Ja nedrīkstot iet ārā, tad izmantojiet ikai elektroniskos materiālus. Ja varat, tad izejiet arī apgaitā. 1. Izvēlietie spētījuma rajonu. Ja Rīgā, tad savu apkaimu. Info jautājumu atbildei var dabūt https://apkaimes.lv/ , t.i., Ķengaragu, Juglu .... Ja esat ārpus Rīgas, tad to apdzīvoto vietu. 2. Skice jāzīmē ar roku, tā nav google vai cita karte. Ievērojiet prasības. 3. Atbildot uz pārējiem jautājumiem - nedomājiet ka centrālais darījumu rajons ir tikai ar debesskrāpjiem, bet arī mazāmiestā tā būs vieta, kur ir veikals, pasts, frizētava, kurpnieks... 4. Funkcijas mēģiniet nosaukt vārdā - rūpniecība, pakalpojumi, izglītība utt. Gatvos darbus nofotografēt vai ieskenēt un sūtīt man uz ztenisone@gmail.com 5. Droši vien ņemiet baltas lapas un uz tām gan zīmējiet un arī rakstiet. Failanosaukumam noteikti pievienojiet savu uzvārdu."
         },
         {
@@ -14,7 +15,17 @@
             "dueTime": "23:55",
             "ACT": "1.5h",
             "donations": [["", ""]],
+            "files": [["TEORIJA", "RESOURCES/Ievilkti un apvilkti cetrsturi TEORIJA.pdf"], ["UZD", "RESOURCES/Ievilkti un apvilkti cetrsturi UZD.pdf"]],
             "data": "šīs nedēļas uzdevumi. Jāizpilda līdz 31.03. 23:55.Tiem, kas vēl nav reģistrējušies e-skola, būtu vēlams to izdarīt, jo, iespējams, ka šonedēļ tur parādīsies arī kāds tests."
+        },
+        {
+            "name": "Angļu valoda (2)",
+            "dueDate": "01/04/2020",
+            "dueTime": "23:59",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "Opinion essay: https://classroom.google.com/u/1/c/NTUxOTgyMDQxNjBa/a/NTYyNTg4Njc1NzZa/details"
         }
     ]
 }

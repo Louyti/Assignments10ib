@@ -121,25 +121,31 @@ body {
     color: white;
     padding-left: 2%;
     font-size: 2vh;
+    float: left;
 }
 .data {
     color: white;
-    padding-left: 2%;
+    padding-left: 1vw;
+    padding-right: 1vw;
     padding-top: 0.8vh;
     padding-bottom: 0.8vh;
     font-size: 1.8vh;
     line-height: 1.9vh;
     min-height: 5vh;
+    word-wrap: break-word;
 }
 .hiddendata {
     display: block;
     color: white;
-    padding-left: 2%;
+    width: 100%;
+    padding-left: 1vw;
+    padding-right: 1vw;
     font-size: 1.8vh;
     line-height: 1.9vh;
     height: 0px;
     overflow: hidden;
     transition-duration: 0.5s;
+    word-wrap: break-word;
 }
 .bottomRow {
     width: 100%;
@@ -157,11 +163,12 @@ body {
 }
 .file {
     color: white;
-    padding-top: 0.4vh;
-    padding-bottom: 0.4vh;
-    width: 30%;
+    min-width: 4vw;
+    margin-right: 0.8vw;
     height: 100%;
     overflow: hidden;
+    font-size: 1.2vh;
+    padding-top: 0.5vh;
     float: right;
 }
 .dayblock {
@@ -182,7 +189,7 @@ body {
     text-align: center;
 }
 .assignmentContainer#more:hover .hiddendata{
-    height: 77.5vh;
+    height: 77.3vh;
     padding-top: 0.8vh;
     padding-bottom: 0.8vh;
     display: block;

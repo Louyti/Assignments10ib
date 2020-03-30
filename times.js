@@ -11,15 +11,6 @@ function getDayName(dateStr, locale)
     return date.toLocaleDateString(locale, { weekday: 'long' });        
 }
 
-function Assignment(name, dueDate, dueTime, ACT, donations, data){
-    this.name = name;
-    this.dueDate = dueDate;
-    this.dueTime = dueTime;
-    this.ACT = ACT;
-    this.donations = donations;
-    this.data = data;
-}
-
 let assignments = [];
 
 init();
@@ -55,8 +46,11 @@ function insertToday(assignment){
         <div class = "dueA">${assignment.dueTime}</div>
     </div>
     <div class = "secondrow">
-        <div class = "complTime">Average Completion Time: ${assignment.ACT}</div>
-    </div>
+        <div class = "complTime">Average Completion Time: ${assignment.ACT}</div>`
+    for(f = 0; f < assignment.files.length; f++){
+        str +=`<a href="${assignment.files[f][1]}" download class = "file">${assignment.files[f][0]}</a>`
+    }
+    str += `</div>
     <div class = "data">${assignment.data}
     </div>
     <div class = "bottomRow">
@@ -74,8 +68,11 @@ function insertT(assignment, day){
             <div class = "titleA2">${assignment.name}</div>
         </div>
         <div class = "secondrow">
-            <div class = "complTime">ACT: ${assignment.ACT}</div>
-        </div>
+            <div class = "complTime">ACT: ${assignment.ACT}</div>`
+    for(f = 0; f < assignment.files.length; f++){
+        str +=`<a href="${assignment.files[f][1]}" download class = "file">${assignment.files[f][0]}</a>`
+    }
+    str += ` </div>
         <div class = "hiddendata">${assignment.data}
         </div>
         <button class = "opener">...</button>
@@ -111,11 +108,14 @@ function refreshAss(){
     for(i = 0; i < assignments.length; i++){
         var dateParts = assignments[i].dueDate.split("/");
         var dateObject = new Date(dateParts[2], dateParts[1] - 1, dateParts[0]); 
+        const diffTime = Math.abs(dateObject - today);
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
         if(assignments[i].dueDate == todayDate){
             insertToday(assignments[i]);
         }
-        else if(dateObject.getDate() <= today.getDate() + 2){
-            insertT(assignments[i], dateObject.getDate() - today.getDate());
+        else if(diffDays <= 2){
+            //alert(today.getDate());
+            insertT(assignments[i], diffDays);
         }
     }
 }
