@@ -245,7 +245,7 @@ body {
 }
 
 #bRight {
-    right: 0;
+    right: 10px;
 }
 
 #bLeft .showB {
@@ -262,7 +262,7 @@ body {
     height: 100%;
     width: 100%;
     color: white;
-    background-color: #7ed6d6;
+    background-color: rgba(255, 255, 255, 0.15);
     border: 0px solid transparent;
     font-size: 2vh;
 }

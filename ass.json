@@ -16,13 +16,13 @@
             "ACT": "1.5h",
             "donations": [["", ""]],
             "files": [["TEORIJA", "RESOURCES/Ievilkti un apvilkti cetrsturi TEORIJA.pdf"], ["UZD", "RESOURCES/Ievilkti un apvilkti cetrsturi UZD.pdf"]],
-            "data": "šīs nedēļas uzdevumi. Jāizpilda līdz 31.03. 23:55.Tiem, kas vēl nav reģistrējušies e-skola, būtu vēlams to izdarīt, jo, iespējams, ka šonedēļ tur parādīsies arī kāds tests."
+            "data": "šīs nedēļas uzdevumi. Jāizpilda līdz 31.03. 23:55.Tiem, kas vēl nav reģistrējušies e-skola, būtu vēlams to izdarīt, jo, iespējams, ka šonedēļ tur parādīsies arī kāds tests. IESNIEDZ: https://macibas.e-skola.lv/course/view.php?id=1426"
         },
         {
             "name": "Angļu valoda (2)",
             "dueDate": "01/04/2020",
             "dueTime": "23:59",
-            "ACT": "Unknown",
+            "ACT": "???",
             "donations": [["", ""]],
             "files": [],
             "data": "Opinion essay: https://classroom.google.com/u/1/c/NTUxOTgyMDQxNjBa/a/NTYyNTg4Njc1NzZa/details"
@@ -31,10 +31,19 @@
             "name": "Literatūra",
             "dueDate": "02/04/2020",
             "dueTime": "23:59",
-            "ACT": "Unknown",
+            "ACT": "???",
             "donations": [["", ""]],
             "files": [],
-            "data": "Domu kartes - Iliāda & Odiseja"
+            "data": "Domu kartes - Iliāda & Odiseja. IESNIEDZ: E-klases pasts"
+        },
+        {
+            "name": "Bioloģija",
+            "dueTime": "23:59",
+            "dueDate": "04/04/2020",
+            "ACT": "???",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "Šūnas uzbūves un darbības salīdzinājums ar kādas citas atklātas sistēmas darbību. Aprakstā jāiekļauj 18 jēdzieni par šūnu uzbūvi un ķīmisko sastāvu un tie jāsalīdzina ar struktūrām un procesiem izvēlētajā atklātajā sistēmā. Iekļautie jēdzieni obligāti jāizceļ – jāpasvītro, jāietonē vai kā citādi jāmarķē. Vērtējums – 0,5 punkti par katru veiksmīgu un atbilstošu salīdzinājumu + 2 punkti par atklātās sistēmas izvēli un apraksta kvalitāti."
         }
     ]
 }
