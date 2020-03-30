@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD</title>
+</head>
+<body>
+    <form name = "form">
+        <label for="name" maxlength = "16">Nosaukums</label><br>
+        <input type="text" id="name" name="name" value=""><br>
+        <label for="dueTime">Due Time</label><br>
+        <input type="text" id="dueTime" name="dueTime" placeholder="xx:xx"><br>
+        <label for="dueDate">Due Date</label><br>
+        <input type="text" id="dueDate" name="dueDate" placeholder="dd/mm/yyyy"><br>
+        <label for="ACT" maxlength = "5">Average Completion Time</label><br>
+        <input type="text" id="ACT" name="ACT" placeholder=""><br>
+        <label for="data">Pats uzdevums - no eklases pasta, utt.</label><br>
+        <input type="text" id="data" name="data" placeholder="" style = "width: 100%; height: 10%; overflow:scroll;"><br>
+        <input type="submit" value="Submit" onclick = "newSub();">
+      </form> 
+      <textarea id = "thetime" style = "width: 0%"></textarea>
+</body>
+<script>
+    function newSub(){
+        let subm = new FormData(document.querySelector('form'));
+        document.getElementById("thetime").innerHTML = `,{
+            "name": "${subm.get("name")}",
+            "dueTime": "${subm.get("dueTime")}",
+            "dueDate": "${subm.get("dueDate")}",
+            "ACT": "${subm.get("ACT")}",
+            "donations": [["", ""]],
+            "data": "${subm.get("data")}"
+        }`
+        document.getElementById("thetime").select();
+        document.execCommand("copy");
+    }
+</script>
+</html>
