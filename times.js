@@ -15,6 +15,8 @@ function getDayName(dateStr, locale)
 
 let assignments = [];
 
+document.getElementById("tlText").innerHTML = todayDate;
+
 init();
 daySet();
 startTime();
