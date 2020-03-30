@@ -3,6 +3,8 @@ var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0');
 var yyyy = today.getFullYear();
 
+let scrVal = 0;
+
 var todayDate = dd + '/' + mm + '/' + yyyy;
 
 function getDayName(dateStr, locale)
@@ -31,12 +33,33 @@ function startTime() {
 }
 
 function daySet(){
-    var tomorrow = new Date();
-    tomorrow.setDate(tomorrow.getDate() + 1);
-    var Atomorrow = new Date();
-    Atomorrow.setDate(Atomorrow.getDate() + 2);
-    document.getElementById("day1").innerHTML = getDayName(tomorrow, "en-US");
-    document.getElementById("day2").innerHTML = getDayName(Atomorrow, "en-US");
+    for(i = 0; i < 6; i++){
+        var tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + i + 1);
+        document.getElementById("day" + (i+1)).innerHTML = getDayName(tomorrow, "en-US");
+    }
+}
+
+function moveP(way){
+    scrVal += way;
+    if(scrVal < 0) scrVal = 0;
+    if(scrVal > 2) scrVal = 2;
+    switch(scrVal){
+        case 0:
+            document.getElementById("bLeft").style.opacity = "0";
+            document.getElementById("bRight").style.opacity = "1";
+        break;
+        case 1:
+            document.getElementById("bRight").style.opacity = "1";
+            document.getElementById("bLeft").style.opacity = "1";
+        break;
+        case 2:
+            document.getElementById("bRight").style.opacity = "0";
+            document.getElementById("bLeft").style.opacity = "1";
+        break;
+
+    }
+    document.getElementById("right").scrollBy(window.innerWidth * way / 2, 0);
 }
 
 function insertToday(assignment){
@@ -113,7 +136,7 @@ function refreshAss(){
         if(assignments[i].dueDate == todayDate){
             insertToday(assignments[i]);
         }
-        else if(diffDays <= 2){
+        else if(diffDays <= 6){
             //alert(today.getDate());
             insertT(assignments[i], diffDays);
         }
