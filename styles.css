@@ -138,7 +138,7 @@ body {
     display: block;
     color: white;
     width: 100%;
-    padding-left: 1vw;
+    padding-left: 0.5vw;
     padding-right: 1vw;
     font-size: 1.8vh;
     line-height: 1.9vh;
@@ -189,7 +189,7 @@ body {
     text-align: center;
 }
 .assignmentContainer#more:hover .hiddendata{
-    height: 77vh;
+    height: 60vh;
     padding-top: 0.8vh;
     padding-bottom: 0.8vh;
     display: block;
