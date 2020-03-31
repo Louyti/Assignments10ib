@@ -64,11 +64,14 @@ function moveP(way){
     document.getElementById("right").scrollBy(window.innerWidth * way / 2, 0);
 }
 
-function insertToday(assignment){
+function insertToday(assignment, index){
     let str = `<div class = "assignmentContainer">
     <div class = "toprow">
         <div class = "titleA">${assignment.name}</div>
         <div class = "dueA">${assignment.dueTime}</div>
+        <label class="ccontainer">
+        <input type = "checkbox" class = "check" ${assignment.done ? "checked" : ""} val = "${assignment.done ? "checked" : "unchecked"}" onclick = "check(this, ${index})"></input><span class="checkmark"></span>
+        </label>
     </div>
     <div class = "secondrow">
         <div class = "complTime">Average Completion Time: ${assignment.ACT}</div>`
@@ -86,12 +89,15 @@ function insertToday(assignment){
     document.getElementById("assignments").insertAdjacentHTML('beforeend',str);
 }
 
-function insertT(assignment, day){
+function insertT(assignment, day, index){
     let str = `
     <div class = "assignmentContainer" id = "more">
         <div class = "toprow">
             <div class = "titleA2">${assignment.name}</div>
             <div class = "dueA">${assignment.dueTime}</div>
+            <label class="ccontainer">
+            <input type = "checkbox" class = "check" ${assignment.done ? "checked" : ""} val = "${assignment.done ? "checked" : "unchecked"}" onclick = "check(this, ${index})"></input><span class="checkmark"></span>
+            </label>
         </div>
         <div class = "secondrow">
             <div class = "complTime">ACT: ${assignment.ACT}</div>`
@@ -115,7 +121,20 @@ function init() {
        }
        refreshAss();
     });
-   }
+}
+
+function check(th, index){
+    switch(th.getAttribute("val")){
+        case "checked":
+            th.setAttribute("val", "unchecked");
+            localStorage.setItem('' + index, "undone");
+        break;
+        case "unchecked":
+            th.setAttribute("val", "checked");
+            localStorage.setItem('' + index, "done");
+        break;
+    }
+}
 
 function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
@@ -135,13 +154,20 @@ function refreshAss(){
         var dateParts = assignments[i].dueDate.split("/");
         var dateObject = new Date(dateParts[2], dateParts[1] - 1, dateParts[0]); 
         const diffTime = Math.abs(dateObject - today);
-        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+        if(localStorage.getItem('' + i) && localStorage.getItem('' + i) == "done") {
+            assignments[i].done = true;
+        }
+        else{
+            localStorage.setItem('' + i, "undone");
+            assignments[i].done = false;
+        }
         if(assignments[i].dueDate == todayDate){
-            insertToday(assignments[i]);
+            insertToday(assignments[i], i);
         }
         else if(diffDays <= 6){
             //alert(today.getDate());
-            insertT(assignments[i], diffDays);
+            insertT(assignments[i], diffDays, i);
         }
     }
 }
