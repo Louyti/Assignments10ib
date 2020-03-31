@@ -5,7 +5,7 @@
             "dueDate": "31/03/2020",
             "dueTime": "23:55",
             "ACT": "1.5h",
-            "donations": [["", ""]],
+            "donations": [["IZA-UZD", "RESOURCES/MAT_31_03.zip"]],
             "files": [["TEORIJA", "RESOURCES/Ievilkti un apvilkti cetrsturi TEORIJA.pdf"], ["UZD", "RESOURCES/Ievilkti un apvilkti cetrsturi UZD.pdf"]],
             "data": "šīs nedēļas uzdevumi. Jāizpilda līdz 31.03. 23:55.Tiem, kas vēl nav reģistrējušies e-skola, būtu vēlams to izdarīt, jo, iespējams, ka šonedēļ tur parādīsies arī kāds tests. IESNIEDZ: https://macibas.e-skola.lv/course/view.php?id=1426"
         },
@@ -20,7 +20,7 @@
         },
         {
             "name": "Literatūra",
-            "dueDate": "02/04/2020",
+            "dueDate": "14/04/2020",
             "dueTime": "23:59",
             "ACT": "???",
             "donations": [["", ""]],
@@ -42,8 +42,8 @@
             "dueDate": "03/04/2020",
             "ACT": "???",
             "donations": [["", ""]],
-            "files": [],
-            "data": "3. Darba lapa - vēl nav iesūtīta"
+            "files": [["NOVELE", "RESOURCES/Bokačo_Dekamerons_Novele_par_Kikibio_10kl_RV1ģ.pdf"], ["SKANAS", "RESOURCES/La_skanju_pārmaiņas_10kl_2020.pdf"], ["UZD", "RESOURCES/Lali_3darba_lapa_10e_10f_10sb_02_04_2020.docx"]],
+            "data": "Prezentācijas materiālā (izņemot 1.tekstveides uzdevumu par Kikibio) ļoti cieši balstīta 3. darba lapa"
         },
         {
             "name": "Angļu valoda (2)",
