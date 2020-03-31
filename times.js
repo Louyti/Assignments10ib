@@ -91,6 +91,7 @@ function insertT(assignment, day){
     <div class = "assignmentContainer" id = "more">
         <div class = "toprow">
             <div class = "titleA2">${assignment.name}</div>
+            <div class = "dueA">${assignment.dueTime}</div>
         </div>
         <div class = "secondrow">
             <div class = "complTime">ACT: ${assignment.ACT}</div>`
