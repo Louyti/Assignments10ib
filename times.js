@@ -153,7 +153,7 @@ function refreshAss(){
     for(i = 0; i < assignments.length; i++){
         var dateParts = assignments[i].dueDate.split("/");
         var dateObject = new Date(dateParts[2], dateParts[1] - 1, dateParts[0]); 
-        const diffTime = Math.abs(dateObject - today);
+        const diffTime = dateObject - today
         const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
         if(localStorage.getItem('' + i) && localStorage.getItem('' + i) == "done") {
             assignments[i].done = true;
@@ -165,7 +165,7 @@ function refreshAss(){
         if(assignments[i].dueDate == todayDate){
             insertToday(assignments[i], i);
         }
-        else if(diffDays <= 6){
+        else if(diffDays <= 6 && diffDays >= 0){
             //alert(today.getDate());
             insertT(assignments[i], diffDays, i);
         }
