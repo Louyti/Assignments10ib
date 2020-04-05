@@ -103,6 +103,15 @@
             "donations": [["", ""]],
             "files": [["TEORIJA", "RESOURCES/Ievilkti un apvilkti regulari daudzsturi TEORIJA.pdf"], ["UZD", "RESOURCES?Ievilkti un apvilkti regulari daudzsturi UZD.pdf"]],
             "data": "teorija un uzdevumi, kas jāiesniedz līdz 03.04., 23:55. IESNIEDZ: https://macibas.e-skola.lv/course/view.php?id=1426"
+        },
+        {
+            "name": "Ģeogrāfija",
+            "dueDate": "07/04/2020",
+            "dueTime": "23:59",
+            "ACT": "???",
+            "donations": [["", ""]],
+            "files": [["DL", "RESOURCES/un_sdgs_intro___10ib.docx"]],
+            "data": "Iepazīties ar SDG conceptu un aizpildīt darba lapu"
         }
     ]
 }
