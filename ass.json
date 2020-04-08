@@ -138,6 +138,14 @@
             "donations": [["", ""]],
             "files": [],
             "data": "4. darba lapa par ortogrāfiju."
+        },{
+            "name": "Bioloģija",
+            "dueTime": "23:00",
+            "dueDate": "08/04/2020",
+            "ACT": "???",
+            "donations": [["", ""]],
+            "files": [["UZD", "RESOURCES/S_uzb_funkc.doc"]],
+            "data": "Šīs nedēļas uzdevums - rūpīgi izlasīt testu par šūnas uzbūvi un funkcijām, katrā jautājumā atbildēm paredzētajā tabulā zem jautājuma numura ierakstīt pareizās atbildes burtu, atsūtīt atbildes man līdz rītvakaram, 08.04, plkst. 23 00."
         }
     ]
 }
