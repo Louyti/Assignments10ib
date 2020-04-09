@@ -136,7 +136,7 @@
             "dueDate": "09/04/2020",
             "ACT": "Unknown",
             "donations": [["", ""]],
-            "files": [],
+            "files": [["UDZ", "RESOURCES/La_4darbalapa_6_7_04_2020_10e_10f_10sb.docx"]],
             "data": "4. darba lapa par ortogrāfiju."
         },{
             "name": "Bioloģija",
@@ -146,6 +146,14 @@
             "donations": [["", ""]],
             "files": [["UZD", "RESOURCES/S_uzb_funkc.doc"], ["ATB", "RESOURCES/bio_07_04_atbildeem.doc"]],
             "data": "Šīs nedēļas uzdevums - rūpīgi izlasīt testu par šūnas uzbūvi un funkcijām, katrā jautājumā atbildēm paredzētajā tabulā zem jautājuma numura ierakstīt pareizās atbildes burtu, atsūtīt atbildes man līdz rītvakaram, 08.04, plkst. 23 00."
+        },{
+            "name": "Angļu val. KD (2)",
+            "dueTime": "13:20-14:00",
+            "dueDate": "09/04/2020",
+            "ACT": "40 min",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "Gatavoties pārbaudes darbam par 'Passive Voice', tiks izlikts Google Classroom pirmās angļu valodas stundas laikā."
         }
     ]
 }
