@@ -162,6 +162,14 @@
             "donations": [["", ""]],
             "files": [],
             "data": "Pārbaudes darbs par jaudu un enerģiju."
-        
+        },{
+                    "name": "Matem. uzdevumi",
+                    "dueTime": "23:55",
+                    "dueDate": "14/04/2020",
+                    "ACT": "Unknown",
+                    "donations": [["", ""]],
+                    "files": [],
+                    "data": "šodien lūdzu izpildiet 2010. gada pārcelšanas eksāmena 1. variantu. Nosūtiet darbu e-klasē."
+        }
     ]
 }
