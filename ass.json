@@ -19,15 +19,6 @@
             "data": "Opinion essay: https://classroom.google.com/u/1/c/NTUxOTgyMDQxNjBa/a/NTYyNTg4Njc1NzZa/details"
         },
         {
-            "name": "Literatūra",
-            "dueDate": "14/04/2020",
-            "dueTime": "23:59",
-            "ACT": "???",
-            "donations": [["", ""]],
-            "files": [],
-            "data": "Domu kartes - Iliāda & Odiseja. IESNIEDZ: E-klases pasts"
-        },
-        {
             "name": "Bioloģija",
             "dueTime": "23:59",
             "dueDate": "04/04/2020",
@@ -163,13 +154,13 @@
             "files": [],
             "data": "Pārbaudes darbs par jaudu un enerģiju."
         },{
-                    "name": "Matem. uzdevumi",
-                    "dueTime": "23:55",
-                    "dueDate": "14/04/2020",
-                    "ACT": "Unknown",
-                    "donations": [["", ""]],
-                    "files": [],
-                    "data": "šodien lūdzu izpildiet 2010. gada pārcelšanas eksāmena 1. variantu. Nosūtiet darbu e-klasē."
+            "name": "Matem. uzdevumi",
+            "dueTime": "23:55",
+            "dueDate": "14/04/2020",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "šodien lūdzu izpildiet 2010. gada pārcelšanas eksāmena 1. variantu. Nosūtiet darbu e-klasē."
         }
     ]
 }
