@@ -154,6 +154,14 @@
             "donations": [["", ""]],
             "files": [],
             "data": "Gatavoties pārbaudes darbam par 'Passive Voice', tiks izlikts Google Classroom pirmās angļu valodas stundas laikā."
-        }
+        },{
+            "name": "Fizikas PD",
+            "dueTime": "12:30-13:30",
+            "dueDate": "14/04/2020",
+            "ACT": "1h",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "Pārbaudes darbs par jaudu un enerģiju."
+        
     ]
 }
