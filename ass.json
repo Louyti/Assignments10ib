@@ -177,6 +177,14 @@
             "donations": [["", ""]],
             "files": [],
             "data": "Tātad šodien darbiņš īss. Ielogojieties Kahoot spēlē ar savu vārdu (tagad tā ir pārveidota, lai varētu visus jautājumus redzēt telefonā). Esmu devusi pietiekami ilgu laiku - 60 vai 90 sekundes katra jautājuma atbildes apdomāšanai. Protams, jums tik ilgs laks nebūs nepieciešams. Varat virzīties uz priekšu savā izvēlētajā tempā. Tomēr neatstājiet darba veikšanu uz vēlu vakaru, jo 23 00 Kahoot būs atslēdzies. Rezultātu vērtēšu ar atzīmi!"
+        },{
+            "name": "Matem. uzdevumi",
+            "dueTime": "23:55",
+            "dueDate": "16/04/2020",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [["UZD", "RESOURCES/PE_10A_2011_1v_U.pdf"]],
+            "data": "Labdien, šodien jāizpilda 2011. gada pārcelšanās eksāmena 1. variants. Piektdien būs tests e-skolā, kurā būs jautājumi no 2010. un 2011. gada 2. variantiem. Rihards Adovičs"
         }
     ]
 }
