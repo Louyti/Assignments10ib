@@ -185,6 +185,30 @@
             "donations": [["", ""]],
             "files": [["UZD", "RESOURCES/PE_10A_2011_1v_U.pdf"]],
             "data": "Labdien, šodien jāizpilda 2011. gada pārcelšanās eksāmena 1. variants. Piektdien būs tests e-skolā, kurā būs jautājumi no 2010. un 2011. gada 2. variantiem. Rihards Adovičs"
+        },{
+            "name": "Ģeogrāfija",
+            "dueTime": "23:59",
+            "dueDate": "21/04/2020",
+            "ACT": "45 min",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "Kas ir pandēmija? SARS piemērs. Noskatīties video un atbildēt jautājumu."
+        },{
+            "name": "Matemātikā tests",
+            "dueTime": "18:00",
+            "dueDate": "17/04/2020",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "Šodien ir jāizpilda tests 'Atkārtojums I' e-skola vidē."
+        },{
+            "name": "Angļu val 2 ",
+            "dueTime": "23:59",
+            "dueDate": "17/04/2020",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "[Google Classroom] All the instructions are on the added worksheet, however...please be as creative as possible and change the provided outline as you wish in a way that depicts your understanding and knowledge on how characterization works. There are two videos which are on the play version of the book, but might be helpful in understanding the characterization and themes a bit more clearly."
         }
     ]
 }
