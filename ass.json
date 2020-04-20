@@ -209,6 +209,14 @@
             "donations": [["", ""]],
             "files": [],
             "data": "[Google Classroom] All the instructions are on the added worksheet, however...please be as creative as possible and change the provided outline as you wish in a way that depicts your understanding and knowledge on how characterization works. There are two videos which are on the play version of the book, but might be helpful in understanding the characterization and themes a bit more clearly."
-        }
+        },{
+            "name": "Matem. uzdevumi",
+            "dueTime": "23:55",
+            "dueDate": "21/04/2020",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [["UZD", "RESOURCES/Atkārtojums - vienadojumi.pdf"]],
+            "data": "šodien un rīt atkārtojums par vienādojumiem. Uzdevumi jāiesniedz e-skolā līdz 21.04. 23:55."
+        
     ]
 }
