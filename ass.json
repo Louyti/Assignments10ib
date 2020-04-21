@@ -233,6 +233,14 @@
             "donations": [["", ""]],
             "files": [],
             "data": "1. Check the WHO report https://www.who.int/who-documents-detail/updated-country-preparedness-and-response-status-for-covid-19-as-of-16-april-2020  Use the data from the report above to create a map using Mapchart.net . Make sure you  include all map conventions (border, orientation, legend, title and scale) before inserting  your map in the space below. https://mapchart.net/world.html"
+        },{
+            "name": "Latv. val. KD",
+            "dueTime": "11:00",
+            "dueDate": "23/04/2020",
+            "ACT": "40min",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "Par abu prezentāciju likumiem/likumībām būs apm. 40 min. izdarāms un atsūtāms darbs."
         }
     ]
 }
