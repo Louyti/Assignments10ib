@@ -225,6 +225,14 @@
             "donations": [["", ""]],
             "files": [["UZD", "RESOURCES/aminoskaabes_olbaltumvielas.doc"]],
             "data": "Šodien būs cītīgi jāpastrādā ar mācību grāmatu un nedaudz ar citiem informācijas avotiem (jautājumā, kur ir teikts - noskaidro), jo jāapgūst temats par aminoskābēm un olbaltumvielām. Par šo uzdevumu iegūsiet tikai krustiņu, bet uzdevuma saturs noderēs parīt, kad individuāli pārbaudīsiet, kā esat tematu apguvuši."
+        },{
+            "name": "Ģeogrāfija",
+            "dueTime": "23:59",
+            "dueDate": "24/04/2020",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "1. Check the WHO report https://www.who.int/who-documents-detail/updated-country-preparedness-and-response-status-for-covid-19-as-of-16-april-2020  Use the data from the report above to create a map using Mapchart.net . Make sure you  include all map conventions (border, orientation, legend, title and scale) before inserting  your map in the space below. https://mapchart.net/world.html"
         }
     ]
 }
