@@ -217,6 +217,14 @@
             "donations": [["", ""]],
             "files": [["UZD", "RESOURCES/Atkārtojums - vienadojumi.pdf"]],
             "data": "šodien un rīt atkārtojums par vienādojumiem. Uzdevumi jāiesniedz e-skolā līdz 21.04. 23:55"
+        },{
+            "name": "Bioloģija",
+            "dueTime": "23:00",
+            "dueDate": "15/04/2020",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [["UZD", "RESOURCES/aminoskaabes_olbaltumvielas.doc"]],
+            "data": "Šodien būs cītīgi jāpastrādā ar mācību grāmatu un nedaudz ar citiem informācijas avotiem (jautājumā, kur ir teikts - noskaidro), jo jāapgūst temats par aminoskābēm un olbaltumvielām. Par šo uzdevumu iegūsiet tikai krustiņu, bet uzdevuma saturs noderēs parīt, kad individuāli pārbaudīsiet, kā esat tematu apguvuši."
         }
     ]
 }
