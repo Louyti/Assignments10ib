@@ -241,6 +241,22 @@
             "donations": [["", ""]],
             "files": [],
             "data": "Par abu prezentāciju likumiem/likumībām būs apm. 40 min. izdarāms un atsūtāms darbs."
+        },{
+            "name": "Matemātika",
+            "dueTime": "23:55",
+            "dueDate": "24/04/2020",
+            "ACT": "Unknown",
+            "donations": [["UZD", "RESOURCES/PE_10A_2013_1v_U.pdf"]],
+            "files": [],
+            "data": "nosūtu 2012. gada 1. varianta atbildes un 2013. gada 1. varianta uzdevumus, kas jāizpilda un jāatsūta šodien.  Pirmdien atkal būs tests ar uzdevumiem no 2. variantiem."
+        },{
+            "name": "Fizika",
+            "dueTime": "16:00",
+            "dueDate": "24/04/2020",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "4) Izpildīt un atsūtīt man uz i/ni līdz piektdienas plkst. 16:00 4.82., 4.83. un 4.85. no uzd. krājuma."
         }
     ]
 }
