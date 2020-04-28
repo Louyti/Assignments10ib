@@ -313,6 +313,14 @@
             "donations": [["", ""]],
             "files": [],
             "data": "DIALOGS par tēmām, jautājumiem, kas mums radušies, lasot A. Bariko “HOMĒRS. Īliāda” Visu, par ko aizdomājāties tematu ietvaros, aktualizējiet (=vārdos izsakiet) rakstiskajā dialogā ar savu klasesbiedru*. Dialoga apjoms vismaz 1000 (ne vairāk kā 1500) vārdu (apm. 500 + 500 – tas nav daudz)! Dialogs jāatsūta līdz 30. aprīļa plkst. 23.00."
+        },{
+            "name": "Ģeogrāfija",
+            "dueTime": "23:59",
+            "dueDate": "28/04/2020",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "Aizpildīt darba lapu"
         }
     ]
 }
