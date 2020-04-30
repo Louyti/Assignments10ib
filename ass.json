@@ -321,6 +321,14 @@
             "donations": [["", ""]],
             "files": [],
             "data": "Aizpildīt darba lapu"
+        },{
+            "name": "Matemātika",
+            "dueTime": "23:55",
+            "dueDate": "30/04/2020",
+            "ACT": "1h",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "šodien, pirms brīvdienām, atkārtojums par vienādojumu sistēmām. Pēc brīvdienām apskatīsim vēl vienu metodi par sistēmu risināšanu. Bija lūgums arī sagatavot atkārtojumu par jūsu mīļāko tēmu - nevienādībās ar parametru.  Uzdevumus var iesniegt arī e-skolā līdz 23:55."
         }
     ]
 }
