@@ -329,6 +329,14 @@
             "donations": [["", ""]],
             "files": [],
             "data": "šodien, pirms brīvdienām, atkārtojums par vienādojumu sistēmām. Pēc brīvdienām apskatīsim vēl vienu metodi par sistēmu risināšanu. Bija lūgums arī sagatavot atkārtojumu par jūsu mīļāko tēmu - nevienādībās ar parametru.  Uzdevumus var iesniegt arī e-skolā līdz 23:55."
+        },{
+            "name": "Matemātika",
+            "dueTime": "23:55",
+            "dueDate": "05/05/2020",
+            "ACT": "Unknown",
+            "donations": [["", ""]],
+            "files": [],
+            "data": "Atkārtojums par Gausa metodi un īsumā izskaidrotas Krāmera formulas. Uzdevumi jāiesūta šeit vai e-skolā līdz ceturtdienas 23:55."
         }
     ]
 }
